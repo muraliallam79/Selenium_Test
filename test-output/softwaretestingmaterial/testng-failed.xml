@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [softwaretestingmaterial]">
+  <listeners>
+    <listener class-name="analyser.RetryAnalyser"/>
+  </listeners>
+  <test name="testngTest2(failed)">
+    <classes>
+      <class name="cases.Fourth_TestCase">
+        <methods>
+          <include name="thirdTest"/>
+        </methods>
+      </class> <!-- cases.Fourth_TestCase -->
+      <class name="cases.Third_TestCase">
+        <methods>
+          <include name="thirdTest"/>
+        </methods>
+      </class> <!-- cases.Third_TestCase -->
+    </classes>
+  </test> <!-- testngTest2(failed) -->
+</suite> <!-- Failed suite [softwaretestingmaterial] -->

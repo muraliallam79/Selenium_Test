@@ -1,0 +1,36 @@
+<suite name="softwaretestingmaterial">
+
+
+
+  <listeners>
+  <listener class-name = "analyser.RetryAnalyser"/>
+  </listeners>
+
+
+ <test name="testngTest2"> 
+ <classes>
+ <class name="cases.Third_TestCase" />  
+ </classes> 
+ </test>
+
+
+ <!--test name="testngTest"> 
+ <classes>
+ <class name="cases.First_TestCase" />
+ </classes> 
+ </test>
+ 
+ <test name="testngTest2"> 
+ <classes>
+ <class name="cases.Second_TestCase" />
+ </classes> 
+ </test>
+ 
+ 
+  <  test name="testngTest3"> 
+ <classes>
+ <class name="cases.Third_TestCase" />
+ </classes> 
+ </test>-->
+ 
+</suite>
