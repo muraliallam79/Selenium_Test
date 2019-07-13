@@ -1,1 +1,1 @@
-propfile  into subbranch
+propfile  into subbranch edited from git hub
